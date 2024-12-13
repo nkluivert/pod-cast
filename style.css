@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: auto;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+header,
+footer {
+    background-color: #558562;
+}
+
+nav a:hover {
+    color: #885555;
+}
+
+header a {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "jersey 15";
+    font-size: medium;
+    color: white;
+    letter-spacing: 1px;
+}
+
+header ul {
+    display: flex;
+    padding-left: 50em;
+    align-items: flex-end;
+    border: #D9D9D9;
+    border-width: 1px;
+    border-style: solid;
+}
+
+header img {
+    width: 10%;
+    height: 3em;
+}
+
+header {
+    padding-bottom: 0.1em;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "jersey 15";
+    color: white;
+    letter-spacing: 1px;
+}
+
+main h1 {
+    font-family: "jersey 15";
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: "jersey 15";
+    letter-spacing: 1px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+p {
+    text-align: start;
+    font-family: "jersey 15";
+    color: black;
+    text-wrap: balance
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* homepage  */
+.index h2 {
+    text-align: center;
+
+}
+
+section:nth-of-type(1) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5em;
+}
+
+section:nth-of-type(1)>p {
+    text-align: center;
+    text-wrap: wrap;
+    padding-right: 30em;
+    font-size: 1.5em;
+}
+
+section:nth-of-type(1)>h2 {
+    padding-right: 20em;
+    font-size: 2.5em;
+}
+
+section:nth-of-type(1)>img {
+    width: 125px;
+    padding-left: 10em;
+    padding-bottom: 5em;
+}
+
+/* tweede deel homepage */
+section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #558562;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+section:nth-of-type(2)>h2 {
+    color: white;
+}
+
+section:nth-of-type(2)>article p {
+    text-align: center;
+}
+
+section:nth-of-type(2)>article h2 {
+    text-align: center;
+}
+
+section:nth-of-type(2)>article img {
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 125px;
+    object-fit: contain;
+}
+
+section:nth-of-type(2)>article {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    margin: 0.3em;
+    width: 18em;
+    overflow: hidden;
+    padding: 1em 1em;
+}
+
+/* derde deel homepage */
+.index div {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    padding: 10em;
+    gap: 2em;
+    row-gap: 8.5em;
+}
+
+.index div>img {
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 125px;
+    object-fit: contain;
+}
+
+.index div p {
+    text-align: center;
+}
+
+.index div>article {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    margin: 0.3em;
+    width: 18em;
+    overflow: hidden;
+    padding: 1em 1em;
+}
+
+.index h2:last-of-type {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* afleveringen */
+.afleveringen {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    padding: 10em;
+    gap: 2em;
+    row-gap: 8.5em;
+}
+
+article img {
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 125px;
+    object-fit: contain;
+}
+
+article p {
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+article {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    margin: 0.3em;
+    width: 18em;
+    overflow: hidden;
+    padding: 1em 1em;
+}
+
+/* over ons */
+.overons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5em;
+    padding-bottom: 10em;
+}
+
+.overons p {
+    text-align: center;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-bottom: 4em;
+    font-size: 1.5em;
+}
+
+.overons img {
+    width: 500px;
+    height: auto;
+    padding-bottom: 5em;
+}
+
+.overons a {
+    font-family: "jersey 15";
+    text-decoration: none;
+    padding: 10px;
+    background-color: #558562;
+    border-radius: 9px;
+    color: white;
+}
+
+.overons a:hover {
+    background-color: #885555;
+
+}
+/* animaties */
